@@ -1,0 +1,30 @@
+.subTitle {
+    font-family: lora;
+    font-style: italic;
+
+}
+
+.price-details {
+    font-family: lora;
+
+}
+
+/*.price-details h5 {
+    font-style: bold;
+}*/
+
+.carouselMonth {
+    background-color: grey;
+    align-items: center;
+
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-inner .item {
+
+    position: relative;
+    .transition(.6s ease-in-out left);
+}

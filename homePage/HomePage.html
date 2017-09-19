@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Basic Bootstrap Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="Navbar/navigation.css">
+<link rel="stylesheet" type="text/css" href="Navbar/animate.css">
+<link rel="stylesheet" type="text/css" href="customHP.css">
+<link href="footer/footer.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+  <header>
+
+    <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-2">
+      <a href="/"><img src="Navbar/logo.png" class="img-responsive" alt="logo"></a>
+    </div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-sm-8">
+        </div>
+        <div class="col-sm-2">
+          <a href="/login">Sign In</a>/<a href="/register">Register</a>
+        </div>
+        <div class="col-lg-1">
+          <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-user"></span> User
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <a href="/viewCart"><img src="Navbar/basket.png" class="img-responsive" alt="Basket"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="button" href="/">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                </button>
+              </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav" style="padding-top:7px;">
+                <li><a href="#">Bestsellers <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Books under £5</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genre<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Sci-fi</a></li>
+                    <li><a href="#">Romance</a></li>
+                    <li><a href="#">Comedy</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Search">
+                </div>
+                <button href="/" type="submit" class="btn btn-info">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </header>
+
+  </header>
+
+    <hr />
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: auto; height: 400px margin: 0 auto">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="carouselMonth.png" alt="Book of the Month" class="carouselImage" style="">
+          <div class="carousel-caption">
+            <h1>Book of the Month</h1>
+            <p>Take a look at our book of the month...</p>
+          </div>
+
+        </div>
+
+        <div class="item">
+          <img src="specialOffers.png" alt="Sale books">
+        </div>
+
+        <div class="item">
+          <img src="backToSchool.jpg.png" alt="School books">
+          <div class="carousel-caption">
+            <h1>Back to School</h1>
+            <p>Get all of your shcool books here!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <hr />
+
+<div class="container">
+	<div class="row">
+        <h1 class="subTitle">New In</h1>
+
+        <hr />
+
+        <div class="col-lg-3">
+            <article class="col-item">
+            	<div class="photo">
+
+        			<a href="#"> <img src="harry_potter_and_the_philosophers_stone.jpg" class="img-responsive" alt="Harry Potter" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-12">
+        					<p class="details text-center">
+        						J. K. Rowling
+        					</p>
+        					<h4 class="text-center"><strong>Harry Potter and the Philosopher's Stone</strong></h4>
+                  <p class="text-center">Paperback</p>
+
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+
+        </div>
+        <div class="col-sm-3">
+            <article class="col-item">
+        		<div class="photo">
+
+        			<a href="#"> <img src="lord_of_the_rings_fellowship_of_the_ring.jpg" class="img-responsive" alt="The Fellowship of the Ring" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-12">
+        					<p class="details text-center">
+        						J. R. Tolkein
+        					</p>
+        					<h4 class="text-center"><strong>The Lord of the Rings: The Fellowship of the Ring</strong></h4>
+                  <p class="text-center">Paperback</p>
+
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+
+        </div>
+        <div class="col-sm-3">
+        	<article class="col-item">
+
+        		<div class="photo">
+        			<a href="#"> <img src="a_handful_of_dust.jpg" class="img-responsive" alt="A Handful of Dust" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-12">
+        					<p class="details text-center">
+        						Evelyn Waugh
+        					</p>
+        					<h4 class="text-center"><strong>A Handful of Dust</strong></h4>
+                  <p class="text-center">Paperback</p>
+
+        				</div>
+        			</div>
+        		</div>
+        	</article>
+        </div>
+        <div class="col-sm-3">
+        	<article class="col-item">
+        		<div class="photo">
+        			<a href="#"> <img src="a_portait_of_the_artist_as_a_young_man.jpg" class="img-responsive" alt="A Portrait of the Artist as a Young Man" /> </a>
+        		</div>
+        		<div class="info">
+        			<div class="row">
+        				<div class="price-details col-md-12">
+        					<p class="details text-center">
+        						James Joyce
+        					</p>
+        					<h4 class="text-center" class="text-center"><strong>A Portrait of the Artist as a Young Man</strong></h4>
+                  <p class="text-center">Paperback</p>
+
+        				</div>
+        			</div>
+
+        			<div class="clearfix"></div>
+        		</div>
+        	</article>
+        </div>
+	</div>
+</div>
+
+<hr />
+
+
+<div class="container">
+  <div class="row">
+    <h1 class="subTitle">Our Top Picks</h1>
+
+    <hr />
+
+    <div class="col-lg-3">
+        <article class="col-item">
+          <div class="photo">
+
+          <a href="#"> <img src="appointment_in_samarra.jpg" class="img-responsive" alt="Appointment in Samarra" /> </a>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="price-details col-md-12">
+              <p class="details text-center">
+                John O’Hara
+              </p>
+              <h4 class="text-center"><strong>Appointment in Samarra</strong></h4>
+              <p class="text-center">Paperback</p>
+
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div class="col-sm-3">
+        <article class="col-item">
+        <div class="photo">
+
+          <a href="#"> <img src="a_high_wind_in_jamaica.jpg" class="img-responsive" alt="A High Wind in Jamaica" /> </a>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="price-details col-md-12">
+              <p class="details text-center">
+                Richard Hughes
+              </p>
+              <h4 class="text-center"><strong>A High Wind in Jamaica</strong></h4>
+              <p class="text-center">Paperback</p>
+
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <div class="col-sm-3">
+      <article class="col-item">
+
+        <div class="photo">
+          <a href="#"> <img src="all_the_king's_men.jpg" class="img-responsive" alt="All the King's Men" /> </a>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="price-details col-md-12">
+              <p class="details text-center">
+                Robert Penn Warren
+              </p>
+              <h4 class="text-center"><strong>All the King's Men</strong></h4>
+              <p class="text-center">Paperback</p>
+
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="col-sm-3">
+      <article class="col-item">
+        <div class="photo">
+          <a href="#"> <img src="deliverance.jpg" class="img-responsive" alt="Deliverance" /> </a>
+        </div>
+        <div class="info">
+          <div class="row">
+            <div class="price-details col-md-12">
+              <p class="details text-center">
+                James Dickey
+              </p>
+              <h4 class="text-center" class="text-center"><strong>Deliverance</strong></h4>
+              <p class="text-center">Paperback</p>
+
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+        </div>
+      </article>
+    </div>
+</div>
+</div>
+
+
+<footer>
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3> Contact </h3>
+<div class="column">
+<div class="row">
+              <div class="col-lg-2">
+                <img src="footer/mobile.png" class="img-responsive" alt="Mobile">
+              </div>
+              <p> 01865 843000 </p>
+            </div>
+          </div>
+              <br>
+              <div class="row">
+              <div class="col-lg-2">
+                <img src="footer/email.png" class="img-responsive" alt="Email">
+              </div>
+              <br>
+              <p> helloworld@websitestories.co.uk</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-2">
+                <img src="footer/address.png" class="img-responsive" alt="Address">
+              </div>
+              <br>
+              <p> <a href="https://www.google.co.uk/maps/place/Kidlington+OX5+1GB/@51.8324254,-1.3123083,17z/data=!3m1!4b1!4m5!3m4!1s0x4876c52531604e4d:0xc52420acaa313172!8m2!3d51.8327322!4d-1.3101612"> <p> Kidlington, Oxford, OX5 1GB </p> </a> </li>
+            </div>
+          </div>
+            <div class="col-md-4">
+              <h3> Navigation </h3>
+              <ul>
+                <li> <a href="/"> Home </a> </li>
+                <!-- remember to add link to the homepage here! -->
+                <li> <a href="/profile"> Profile </a> </li>
+                <!-- remember to add link to the user profile here! -->
+                <li> <a href="/login"> Sign in </a> </li>
+                <!-- remember to add link to the sign in page here! -->
+                <li> <a href="/register"> Register </a> </li>
+                <!-- remember to add link to the register page here! -->
+                <li> <a href="/viewCart"> View Cart </a> </li>
+                <!-- remember to add link to the view cart page here! -->
+                <li> <a href="/checkout"> Checkout </a> </li>
+                <!-- remember to add link to the checkout here! -->
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3> Follow us </h3>
+              <div class="row">
+              <ul>
+
+                <li>
+                  <a href="https://www.twitter.com"> <div class="col-lg-4">
+                          <img src="footer/twitter.png" class="img-responsive" alt="Twitter"> </a>
+                        </div> </li>
+                        <li> <a href="https://www.facebook.com"> <div class="col-lg-4" >
+                          <img src="footer/facebook.png" class="img-responsive" alt="Facebook"> </a>
+                        </div> </li>
+                      <li>  <a href="https://www.instagram.com"> <div class="col-lg-4" >
+                          <img src="footer/instagram.png" class="img-responsive" alt="Instagram"> </a>
+                        </div> </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!--/.footer-->
+
+    <div class="footer-bottom">
+        <div class="container">
+      <h6> Copyright © 2017, Website Stories Ltd. All rights reserved. </h6>
+        </div>
+    </div>
+    <!--/.footer-bottom-->
+</footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+      </body>
+
+</html>
