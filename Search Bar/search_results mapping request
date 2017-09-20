@@ -1,0 +1,10 @@
+	//Put the code in the book controller
+  
+  @RequestMapping("/search_results")
+	public ModelAndView searchResults(@RequestParam("search") String name){
+		
+		Search search = searchService.getSearchByName(name);
+		ModelAndView modelAndView = new ModelAndView("search_results");
+		modelAndView.addObject("search", search);
+		return modelAndView;
+	}
