@@ -1,3 +1,128 @@
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+    font-family: lora;
+    font-style: italic;
+
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    font-family: lora;
+    font-style: italic;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+    font-family: lora;
+    font-style: italic;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+    font-family: lora;
+    font-style: italic;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+    font-family: lora;
+    font-style: italic;
+}
+
+
+.footer {
+	background: #dee0e2;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+  font-family: lora;
+  font-style: italic;
+}
+
+.footer h3 {
+	border-bottom: 1px solid #4d4f51;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+	text-transform: uppercase;
+  font-family: lora;
+  font-style: italic;
+}
+
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #4d4f51;
+  font-family: lora;
+  font-style: italic;
+}
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+  font-family: lora;
+  font-style: italic;
+}
+.footer a {
+	color: #4d4f51
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+  font-family: lora;
+  font-style: italic;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+  font-family: lora;
+  font-style: italic;
+}
+
+.footer-bottom {
+	background: #4d4f51;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  font-family: lora;
+  font-style: italic;
+}
+
+.footer-bottom h6{
+color: #f7f2f2;
+
+}
+
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-family: lora;
+  font-style: italic;
+}
+
 
 .container { margin-top: 20px; }
 .mb20 { margin-bottom: 20px; }
