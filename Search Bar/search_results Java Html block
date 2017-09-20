@@ -1,0 +1,64 @@
+	  <%
+         	Iterable<Book> books = (Iterable<Book>) session.getAttribute("books");          
+     
+      
+         	Iterable<Search> searchs = (Iterable<Search>) session.getAttribute("searchs");          
+     
+	    
+	    
+	    	Search search;
+            search = (Search) request.getAttribute("search");
+	    
+	        
+	        
+	        int a =search.getTypeId();
+	        
+	        ArrayList<Book> bookList = new ArrayList<>();
+	        
+	        switch(a){
+	        case 0: out.println("Your search returned nothing");
+	        
+	        case 1: for(Book book:books)
+	        	{
+	        	if(book.getTitle().equals(search.getName()))
+	        	{
+	        		
+	        		bookList.add(book);
+
+	        	}
+	        	}
+	        
+	        case 2: for(Book book:books)
+        	{
+        	if(book.getAuthorName().equals(search.getName()))
+        	{
+        		bookList.add(book);
+        	}
+        	}
+	        	
+	        case 3:for(Book book:books)
+        	{
+        	if(book.getGenre().equals(search.getName()))
+        	{
+        		bookList.add(book);
+        	}
+        	}
+	        	
+	        case 4:for(Book book:books)
+        	{
+        	if(book.getisbn().equals(search.getName()))
+        	{
+        		bookList.add(book);
+        	}
+        	}
+	        
+	        }
+	        
+	        Iterable<Book> bookiterable = bookList;
+	        
+	        for(Book book:bookiterable){
+	        
+	        out.println("     "+book.getTitle());
+	        }
+
+	    %>
