@@ -1,0 +1,3 @@
+//Search by name
+	@Query ("SELECT s from Search s where s.name=:sName")
+	public Search getSearchByName(@Param("sName") String searchName);
