@@ -1,0 +1,11 @@
+public Search getSearchByName(String searchName)
+	{
+		if (searchRepository.getSearchByName(searchName)!= null){
+		return searchRepository.getSearchByName(searchName);
+		}
+		else{
+		Search search = new Search(0,"0","0"," ",0);
+		return search;
+		}
+		
+	}
