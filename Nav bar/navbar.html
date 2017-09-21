@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="navigation.css">
+      <link rel="stylesheet" type="text/css" href="css/navigation.css">
   </head>
 
   <body>
@@ -18,18 +18,18 @@
           </div>
           <div class="col-sm-10">
             <div class="row">
-              <div class="col-sm-8">
+              <div class="col-sm-7">
               </div>
-              <div class="col-sm-2">
-                <a href="/login">Sign In</a>/<a href="/register">Register</a>
+              <div class="col-sm-2" style="padding-top:11px; padding-bottom: 11px; font-size:16px; padding-left: 100px">
+                <a href="/login">Sign In</a>/ <a href="/register">Register</a>
               </div>
-              <div class="col-lg-1">
-                <a href="#" class="btn btn-info btn-lg">
+              <div class="col-lg-2" id="homebtn" style="padding-left: 40px;">
+                <a href="/customerHome" class="btn btn-default btn-lg" style="margin-top: 11px;">
                 <span class="glyphicon glyphicon-user"></span> User
                 </a>
               </div>
-              <div class="col-sm-1">
-                <a href="/viewCart"><img src="images/basket.png" class="img-responsive" alt="Basket"></a>
+              <div class="col-sm-1" style="padding-left: 5px; margin-top:7px;">
+                <a href="/viewCart"><img src="images/basket.png" class="img-responsive" alt="Basket" style="height: 50px; width:50px"></a>
               </div>
             </div>
 
@@ -43,17 +43,29 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="button" href="/">
-                      <button type="button" class="btn btn-default" aria-label="Left Align">
-                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                      <a class="button" href="/">
+                      <button type="button" class="btn btn-default" aria-label="Left Align" style="
+                        border-top-width: 1px;
+                        height: 58px;
+                        width: 54px;
+                        margin-top: 2px;
+                        padding-bottom: 6px;
+                        text-align:center;
+                        border: none;
+                        background-color:Transparent;
+                        overflow: hidden;
+                        cursor: pointer;
+                        background-image: none;
+                        outline:none">
+                        <span class="glyphicon glyphicon-home" style="font-size:30px;" aria-hidden="true"  ></span>
                       </button>
                     </a>
                   </div>
 
                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav" style="padding-top:7px;">
-                      <li><a href="/search_results?search=bestSellers">Bestsellers <span class="sr-only">(current)</span></a></li>
-                      <li><a href="/search_results?search=price">Books under £7</a></li>
+                      <li><a href="/search_results?search=bestSellers" style="font-size:16px;">Bestsellers <span class="sr-only">(current)</span></a></li>
+                      <li><a href="/search_results?search=price" style="font-size:16px;">Books under £7</a></li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genre<span class="caret"></span></a>
                         <ul class="dropdown-menu">
